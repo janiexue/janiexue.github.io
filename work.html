@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Janie Xue</title>
+  <title>Work</title>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,28 +24,53 @@
   <script src="assets/main.js"></script>
 </head>
 
-<body onload="homeOnLoad()">
+<body onload="workOnLoad()">
 
-    <div class="page-header  animate__animated animate__fadeInDown">  
+    <div class="page-header">  
         <nav class="navbar">
             <h1 id="site-title"><a href="index.html">janie xue</a></h1>
               <ul class="nav navbar-nav">
-                <li><a href="work.html">work</a></li>
+                <li><a class="active" href="work.html">work</a></li>
                 <li><a href="about.html">about</a></li>
                 <li><a href="#">resume</a></li>
               </ul>
           </nav>
     </div>
 
-    <div class="container-fluid page-content animate__animated animate__fadeInDown">
-        <h3 class="header-text">hey there!</h3>
-        <h3 class="header-text"> my name is janie and i am currently a senior at carnegie mellon studying business and human-computer interaction.</h3>
-    </div>
+<!-- Portfolio Gallery Grid from W3Schools -->
+<div class="row page-content  animate__animated animate__fadeInRight">
+    <div class="column"> 
+        <a href="proj-bunbun.html"> <div class="content">
+        <img src="assets/images/bunbun.png" alt="Bun Bun Bakery project" style="width:100%; height:100%">
+          <div class="overlay" style="width:100%; height:100%">
+            <div class="overlay-head">bun bun bakery</div>
+            <div class="overlay-text">website design & programming</div>
+          </div>
 
-    <div class="page-content center animate__animated animate__fadeInDown" id="home-center">
-        <h3 class="header-text ">check out my work</h3>
-        <a href="work.html"><img id="home-arrow" src="assets/images/home-arrow.png" alt="blue right arrow"></a>
+      </div> </a>
     </div>
+   <!-- <div class="column">
+      <div class="content">
+        <img src="assets/images/bunbun.png" alt="Lights" style="width:100%">
+
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="assets/images/bunbun.png" alt="Nature" style="width:100%">
+
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="assets/images/bunbun.png" alt="Mountains" style="width:100%">
+
+      </div>
+    </div>
+    -->
+</div>
+
+
 
 </body>
 
