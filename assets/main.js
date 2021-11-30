@@ -14,9 +14,12 @@ function homeOnLoad() {
         homeArrow.classList.remove('animate__shakeX');
     });
 
-
   }
 
+// back button -- uses url history, from W3Schools //
 
+function goBack() {
+  window.history.back();
+}
 
   

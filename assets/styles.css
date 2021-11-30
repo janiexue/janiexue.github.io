@@ -9,12 +9,31 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #78809E;
+    text-decoration: none;
+
+}
+
 .active {
     color: #78809E !important; 
 }
 
 .center {
     text-align: center;
+}
+
+.left {
+    text-align: left;
+    float: left;
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+}
+
+.right {
+    float: right;
+    text-align: left;
+    padding-right: 6.5rem;
 }
 
 /* header and navigation*/
@@ -24,23 +43,32 @@ a {
 }
 
 #site-title a {
-    font-size: 6rem;
+    font-size: 6.5rem;
     font-weight: bold;
     color: #313131;
     text-decoration: none;
     padding-left: 1.5rem;
+
 }
 
 .nav a{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #92A4D2;
     font-weight: bold;
 }
 
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #78809E;
+}
+
 .nav {
-    margin-top: -0.5rem;
+    margin-top: -2rem;
     margin-bottom: -2rem;
 }
+
+
 
 /* page content */
 .page-content {
@@ -74,8 +102,12 @@ a {
 /* from W3Schools for responsive portfolio */
 .column {
   float: left;
-  width: 25%;
+  width: 50%;
   padding: 1rem;
+}
+
+.padtop {
+    padding-top: 2rem;
 }
 
 .row:after {
@@ -121,10 +153,9 @@ a {
   
   .overlay-text {
     color: white;
-    font-size: 150%;
+    font-size: 175%;
     text-align: center;
     vertical-align: middle;
-    margin-bottom: 6rem;
     color: #BCCEEA;
     font-weight: bold;
     
@@ -132,14 +163,88 @@ a {
 
   .overlay-head {
     color: white;
-    font-size: 250%;
+    font-size: 300%;
     text-align: center;
     vertical-align: middle;
-    margin-top: 8rem;
+    margin-top: 15vh;
     font-weight: bold;
     
   }
 
   .animate__animated.animate__fadeInRight
-    --animate-duration: 2s;
+    --animate-duration: 1.5s;
   }
+
+  /* ------------------  PROJECT PAGES ------------------ */
+
+.proj-header {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.proj-header {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.proj-subhead {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #78809E;
+    margin-top: -1rem;
+}
+
+.proj-image {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.proj-subtitle {
+    padding-top: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #78809E;
+}
+
+.proj-text {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 1.75rem;
+}
+
+.proj-highlight {
+    font-weight: bold;
+    padding: 2.5rem;
+    font-size: 1.75rem;
+
+}
+
+/* carousel customization */
+.carousel-control.left, .carousel-control.right {
+    background-image:none !important;
+    filter:none !important;
+ }
+
+ .carousel-control {
+    opacity: 0.75;
+  }
+  
+
+  .carousel-inner > .item {
+    height: 50vh;
+ }
+
+
+ /* project page id styling */
+
+#back-next {
+    font-size: 1.75rem;
+    font-weight: bold;
+
+}
+
+#next-button {
+    float: right;
+
+
+}
