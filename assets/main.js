@@ -6,12 +6,12 @@ function homeOnLoad() {
     var body = document.getElementsByTagName('body');
     homeArrow.addEventListener('mouseover', function (e) {
         homeArrow.classList.add('animate__animated');
-        homeArrow.classList.add('animate__shakeX');
+        homeArrow.classList.add('animate__shakeY');
     });
 
     homeArrow.addEventListener('mouseout', function (e) {
         homeArrow.classList.remove('animate__animated');
-        homeArrow.classList.remove('animate__shakeX');
+        homeArrow.classList.remove('animate__shakeY');
     });
 
   }

@@ -24,28 +24,39 @@
   <script src="assets/main.js"></script>
 </head>
 
-<body onload="homeOnLoad()">
+<body>
 
-    <div class="page-header  animate__animated animate__fadeInDown">  
+    <div class="page-header  animate__animated">  
         <nav class="navbar">
             <h1 id="site-title"><a href="index.html">janie xue</a></h1>
               <ul class="nav navbar-nav">
                 <li><a href="work.html">work</a></li>
-                <li><a href="about.html">about</a></li>
+                <li><a class="active" href="about.html">about</a></li>
                 <li><a href="resume.html">resume</a></li>
               </ul>
           </nav>
     </div>
 
-    <div class="container-fluid page-content animate__animated animate__fadeInDown">
-        <h3 class="header-text">hey there!</h3>
-        <h3 class="header-text"> my name is janie and i am currently a senior at carnegie mellon studying business and human-computer interaction.</h3>
+    <div class="container-fluid page-content animate__animated animate__slideInUp">
+        <div class="row"> 
+            <div class="col-sm-6"> 
+                <img id="portrait" src="assets/images/me.jpg" alt="Janie Xue, standing portrait">
+            </div>
+            <div class="col-sm-6"> 
+                <h3 class="header-text"> thanks for visiting!</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                       sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <h3 class="proj-subtitle"> some links, just for you: </h3>
+            </div>
+
+        </div>
     </div>
 
-    <div class="page-content center animate__animated animate__fadeInDown" id="home-center">
-        <h3 class="header-text ">check out my work</h3>
-        <a href="work.html"><img id="home-arrow" src="assets/images/home-arrow.png" alt="blue right arrow"></a>
-    </div>
 
 </body>
 
