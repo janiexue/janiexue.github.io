@@ -29,20 +29,20 @@ a:hover {
 .left {
     text-align: left;
     float: left;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
 
 .right {
     float: right;
     text-align: left;
-    padding-right: 20rem;
+    padding-right: 15rem;
 }
 
 /* header and navigation*/
 .page-header {
-    padding-left: 18.5rem;
-    padding-right: 18.5rem;   
+    padding-left: 14.5rem;
+    padding-right: 14.5rem;   
 }
 
 #site-title a {
@@ -76,8 +76,8 @@ a:hover {
 /* page content */
 .page-content {
    
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
 
 .header-text {
@@ -85,7 +85,6 @@ a:hover {
     font-weight: bold;
 
 }
-
 
 
 /* ------------------  HOME PAGE ------------------ */
@@ -99,38 +98,52 @@ a:hover {
     margin-top: 3rem;
 }
 
+.animate__animated.animate__fadeInRight
+--animate-duration: 5s;
 
+}
 
 /* ------------------  WORK PAGE ------------------ */
 
 /* from W3Schools for responsive portfolio */
-.column {
-  float: left;
-  width: 50%;
-  padding: 1rem;
-}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vh 0;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 2vh 0vh;
+  }
+  
+  .column img {
+    vertical-align: left;
+    width: 65vh;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
 
 .padtop {
     padding-top: 3rem;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
 
   /* overlay reference from W3Schools */
   .overlay {
@@ -157,7 +170,7 @@ a:hover {
   
   .overlay-text {
     color: white;
-    font-size: 2.5rem;
+    font-size: 3vh;
     text-align: center;
     vertical-align: middle;
     color: #BCCEEA;
@@ -167,10 +180,10 @@ a:hover {
 
   .overlay-head {
     color: white;
-    font-size: 4rem;
+    font-size: 5vh;
     text-align: center;
     vertical-align: middle;
-    margin-top: 8vh;
+    margin-top: 10vh;
     font-weight: bold;
     
   }
