@@ -111,6 +111,12 @@ a:hover {
     flex-wrap: wrap;
     padding: 2vh 0;
   }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   
   /* Create four equal columns that sits next to each other */
   .column {
@@ -124,19 +130,20 @@ a:hover {
     width: 65vh;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* Responsive layout - makes a two column-layout instead of four columns 
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
       max-width: 50%;
     }
-  }
+  } */
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
       flex: 100%;
       max-width: 100%;
+      display: block;
     }
   }
 
