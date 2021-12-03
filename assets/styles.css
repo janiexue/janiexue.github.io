@@ -148,6 +148,7 @@ a:hover {
       flex: 100%;
       max-width: 100%;
       display: block;
+      padding-right: 2vh;
     }
   }
 
@@ -290,4 +291,11 @@ a:hover {
       width: 55vh;
       padding-bottom: 5rem;
       margin-right: 5rem;
+  }
+
+
+  @media screen and (max-width: 1000px) {
+    #portrait {
+      padding-right: 5rem;
+    }
   }
