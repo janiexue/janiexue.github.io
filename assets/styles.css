@@ -133,7 +133,7 @@ a:hover {
   
   .column img {
     vertical-align: left;
-    width: 65vh;
+    height: 35vh;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns 
