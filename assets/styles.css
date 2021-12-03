@@ -11,6 +11,10 @@ body {
     height: -webkit-fill-available;
   }
 
+  html, body {
+    overflow-x: hidden;
+  }
+
 a {
     color: #404040;
     text-decoration: none;
