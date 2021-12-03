@@ -138,7 +138,7 @@ a:hover {
   .column img {
     vertical-align: left;
     height: 35vh;
-    padding-right: 15rem;
+    margin-right: 15rem;
   }
   
 
@@ -287,6 +287,7 @@ a:hover {
   /* ------------------  ABOUT PAGE ------------------ */
 
   #portrait {
-      height: 75vh;
+      width: 55vh;
       padding-bottom: 5rem;
+      margin-right: 5rem;
   }
