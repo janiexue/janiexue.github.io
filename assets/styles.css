@@ -6,10 +6,12 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     min-height: -webkit-fill-available;
+    min-width: -webkit-fill-available;
   }
 
   html {
     height: -webkit-fill-available;
+    width: -webkit-fill-available;
   }
 
   html, body {
